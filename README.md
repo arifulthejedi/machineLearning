@@ -15,3 +15,11 @@ Algorithm:
   -k-mean
   -K-Nearest Neighbors (KNN)
 10.AdaBoost & Gradient Boosting Machines
+
+
+#data frame
+1.cvs to array
+2.learn data cleaning
+
+#data fit on algorithm
+
