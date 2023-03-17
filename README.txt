@@ -28,4 +28,6 @@ Algorithm:
 1.scattered 2d and 3d ploting
 2.different type ploting
 
-#jupiter notepad
+#jupiter notepad(used for visualizing data)
+1.pip install notebook
+2.jupyter notebook
