@@ -23,3 +23,9 @@ Algorithm:
 
 #data fit on algorithm
 
+=========Tools============
+#matplotlab & pandas dataframe
+1.scattered 2d and 3d ploting
+2.different type ploting
+
+#jupiter notepad
