@@ -26,6 +26,8 @@ Algorithm:
 
 #data normalization or data standardization
 1.normalization: conver all columns data into a common unit that data provide accurate result
+there is a formula that convert a value to another in a particular range
+
 2.standardization:
 
 #data fit on algorithm
