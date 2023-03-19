@@ -17,9 +17,16 @@ Algorithm:
 10.AdaBoost & Gradient Boosting Machines
 
 
-#data frame
+========data processing=======
+#data framing
 1.cvs to array
 2.learn data cleaning
+
+#data cleaning
+
+#data normalization or data standardization
+1.normalization: conver all columns data into a common unit that data provide accurate result
+2.standardization:
 
 #data fit on algorithm
 
