@@ -6,6 +6,9 @@ One advantage of the optics clustering algorithm is that it can handle datasets 
 
 It is especially helpful when the number of clusters is uncertain or when the data contains noise or changing densities. You can select the clustering fineness with more freedom using OPTICS hierarchical clustering tree, which also makes it possible to see the clustering structure in all of its detail. Overall, the OPTICS method is a robust and versatile clustering algorithm that can handle a variety of real-world datasets, making it a crucial tool for applications in data analysis and machine learning.
 
+//which field this technique is useful
+
+
 
 There are several existing methods for implementing the OPTICS clustering algorithm. In this article the orginial OPTICS algorithm (proposed Mihael Ankerst, Markus M. Breunig, Hans-Peter Kriegel, and Jorg Sander in 1999) methode is choosen.Although it has a number of drawbacks that can limit its performance in some circumstances.
  
@@ -28,6 +31,8 @@ Agglomerative clustering is a machine learning and data analysis method for hier
 
 The advantage of developing a hierarchical structure of clusters using a dendrogram is one advantage of agglomerative clustering. This structure provides a visual representation of the connections between clusters and makes it easier to identify natural groupings within the data.
 
+//which field this technique is useful
+
 
 Agglomerative clustering can be implemented using a variety of methodes.Which agglomerative clustering method is employed will depend on the type of data being clustered and the precise objectives of the study. This article will focus on "complete linkage" and "single linkage" in particular. Both methodes has their own drawbacks.
 
@@ -44,11 +49,24 @@ For large datasets, complete linkage clustering can be computationally expensive
 
 1.single linkage methode
  -How it works brief description
- -
+ -Discuss about perameter
+
+2.complete linkage methode
+ -How it works brief description
+ -Discuss about perameter
+
+3.discussion about single linkage vs complete linkage
+which linkage is suitable for which type of data
 
 
+# Agglomerative
 
+1. methode
+ -How it works brief description
+ -Discuss about perameter
 
+2.discussion about which type of data is suitable for this 
+algorithm.
 
 
 
