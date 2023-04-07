@@ -39,6 +39,13 @@ Complete linkage:
 For large datasets, complete linkage clustering can be computationally expensive since it determines the greatest possible distance between every pair of points in the clusters being merged. Applying complete linkage clustering to datasets with a lot of data points or dimensions might be difficult because of this.
 
 
+//Litereture review
+# Agglomerative
+
+1.single linkage methode
+ -How it works brief description
+ -
+
 
 
 
