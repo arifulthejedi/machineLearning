@@ -58,12 +58,19 @@ Data cleansing is a crucial step to take before applying any clustering to a dat
 
 6.Analyze the data's quality: Before clustering, carefully evaluate the data's quality. This entails looking for data entry mistakes, consistency problems, and other problems that can have an impact on the precision and dependability of the clustering results.
 
+
 //Litereture review
 # Agglomerative
 
 1.single linkage methode
  -How it works brief description
  -Discuss about perameter
+
+Here are some general steps to follow to implement the agglomerative hierarchical clustering algorithm for the data set:
+
+1.Select the best linkage technique: Select a linkage technique that is suitable for the type of data being studied and the clustering goals. Two popular techniques are complete linkage and single linkage.
+
+
 
 2.complete linkage methode
  -How it works brief description
