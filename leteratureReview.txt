@@ -85,6 +85,9 @@ Here are some general steps to follow to implement the agglomerative hierarchica
 
 In general, agglomerative clustering implementation entails selecting appropriate parameters, prepping the data, and performing iterative cluster merging based on the selected linking mechanism. The analysis's result can be utilized for a number of things, including pattern recognition, gathering related data points, and prediction-making.
 
+Here are some visual examples of dummy data set on t-SNE plot.
+
+//insert the all tsne plot pic
 
 
 2.complete linkage methode
