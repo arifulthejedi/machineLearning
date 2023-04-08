@@ -44,8 +44,13 @@ Complete linkage:
 For large datasets, complete linkage clustering can be computationally expensive since it determines the greatest possible distance between every pair of points in the clusters being merged. Applying complete linkage clustering to datasets with a lot of data points or dimensions might be difficult because of this.
 
 
-Data cleansing is a crucial step to take before applying any clustering to a dataset in order to get optimal results.  Here are some steps for data cleaning specifically for clustering.
+Data cleansing is a crucial step to take before applying any clustering to a dataset in order to get optimal results.  Here are some steps for data cleaning specifically for clustering. 
 
+1.Eliminate missing or incomplete data: Missing or incomplete data can lead to incorrect or biased clusters. It is essential to delete or impute missing data before grouping.
+
+2.Eliminate unnecessary variables:Including unnecessary variables can result in false or noisy clusters. Removing variables that are irrelevant to the clustering analysis is a good approach.
+
+3.Normalize or standardize the data: It is necessary to normalize or standardize the variables before clustering if the dataset contains variables with different scales or units. This guarantees that each variable in the clustering analysis is given the same weight.
 
 
 //Litereture review
