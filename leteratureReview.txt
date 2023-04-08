@@ -62,13 +62,28 @@ Data cleansing is a crucial step to take before applying any clustering to a dat
 //Litereture review
 # Agglomerative
 
-1.single linkage methode
- -How it works brief description
- -Discuss about perameter
-
 Here are some general steps to follow to implement the agglomerative hierarchical clustering algorithm for the data set:
 
 1.Select the best linkage technique: Select a linkage technique that is suitable for the type of data being studied and the clustering goals. Two popular techniques are complete linkage and single linkage.
+
+
+2.Determine how many clusters are there: Choose how many clusters you want to use in the analysis. This could be decided upon using exploratory analysis or existing information.
+
+3.Select the distance metric: Select a suitable distance metric to determine how similar the data points are to one another. Euclidean distance, Manhattan distance, and cosine distance are three often used distance measures.
+
+4.Make a distance matrix: Calcalculating the pairwise distances between all of the data points.
+
+5.Cluster initialization: Every data point is originally assigned to a separate cluster.
+
+6.Clusters merging: Using the specified linkage method, combine the two nearest clusters, then update the distance matrix.
+
+7.Repeat steps 5 and 6: Repeat steps 5 and 6 until the necessary number of clusters is obtained. This is done by combining the two closest clusters.
+
+8.Visualize the results of the clustering:  Analysis, and then analyze the clusters in light of the information and the clustering goals.
+
+9.Evaluate the outcomes: Utilize relevant metrics to measure the quality of the clustering results, such as the silhouette score, cluster purity, or within-cluster sum of squares.
+
+In general, agglomerative clustering implementation entails selecting appropriate parameters, prepping the data, and performing iterative cluster merging based on the selected linking mechanism. The analysis's result can be utilized for a number of things, including pattern recognition, gathering related data points, and prediction-making.
 
 
 
