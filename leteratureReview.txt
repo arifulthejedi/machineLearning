@@ -52,6 +52,11 @@ Data cleansing is a crucial step to take before applying any clustering to a dat
 
 3.Normalize or standardize the data: It is necessary to normalize or standardize the variables before clustering if the dataset contains variables with different scales or units. This guarantees that each variable in the clustering analysis is given the same weight.
 
+4.Identify and remove outliers: The outcomes of a clustering analysis can be greatly impacted by outliers. Before clustering, it's critical to locate and eliminate outliers; alternatively, think about employing a strong distance metric that is less susceptible to outliers.
+
+5.Choose the appropriate distance metric: The clustering outcomes can be influenced by the distance metric selection. It is crucial to select a distance metric that works with the data being studied and the clustering goals.
+
+6.Analyze the data's quality: Before clustering, carefully evaluate the data's quality. This entails looking for data entry mistakes, consistency problems, and other problems that can have an impact on the precision and dependability of the clustering results.
 
 //Litereture review
 # Agglomerative
