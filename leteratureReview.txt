@@ -55,7 +55,9 @@ For large datasets, complete linkage clustering can be computationally expensive
  -How it works brief description
  -Discuss about perameter
 
-3.discussion about single linkage vs complete linkage
+3.result & dicussion
+
+4.discussion about single linkage vs complete linkage
 which linkage is suitable for which type of data
 
 
@@ -65,7 +67,11 @@ which linkage is suitable for which type of data
  -How it works brief description
  -Discuss about perameter
 
-2.discussion about which type of data is suitable for this 
+
+2.result & dicussion
+
+
+3.discussion about which type of data is suitable for this 
 algorithm.
 
 
