@@ -32,6 +32,17 @@ Agglomerative clustering is a machine learning and data analysis method for hier
 The advantage of developing a hierarchical structure of clusters using a dendrogram is one advantage of agglomerative clustering. This structure provides a visual representation of the connections between clusters and makes it easier to identify natural groupings within the data.
 
 //which field this technique is useful
+Agglomerative clustering is effective in many applications where it is useful to group related things together. The following are some scenarios in which agglomerative clustering can be effective:
+
+1.Marketing: Customers can be categorized using agglomerative clustering based on their purchasing patterns, demographics, or other variables. This can assist companies in identifying target client segments for particular goods or services and developing tailored marketing plans.
+
+2.Image segmentation: Agglomerative clustering can be used to segment an image by gathering pixels that are part of the same object or location. For tasks like object detection, background removal, or image compression, this can be helpful.
+
+3.Genomics: Genes or proteins can be grouped via agglomerative clustering depending on their expression profiles, sequence information, or other variables. Researchers may be able to learn more about biological processes and mechanisms and uncover shared genes or functional modules with the use of this.
+
+4.Social Network: Agglomerative clustering can be used in social network analysis to classify users or nodes in a network according to their interactions, shared interests, or other criteria. This can aid researchers in locating communities, influential individuals, or network-wide trends.
+
+5.Finance: Stocks or assets can be grouped using aggregative clustering based on their correlation or covariance structure. This can assist investors in managing risks, expanding their portfolios, or finding arbitrage possibilities.
 
 
 Agglomerative clustering can be implemented using a variety of methodes.Which agglomerative clustering method is employed will depend on the type of data being clustered and the precise objectives of the study. This article will focus on "complete linkage" and "single linkage" in particular. Both methodes has their own drawbacks.
@@ -89,15 +100,15 @@ Here are some visual examples of dummy data set on t-SNE plot.
 
 //insert the all tsne plot pic
 
+Here are the outcomes of using the agglomerative algorithm for the data set. There are many ways to evaluate the label's accuracy. However, Adjusted Rand Index (ARI) is used in this case.
 
-2.complete linkage methode
- -How it works brief description
- -Discuss about perameter
+//show the result table with single and complete linkage
 
-3.result & dicussion
 
-4.discussion about single linkage vs complete linkage
-which linkage is suitable for which type of data
+
+Use single linkage to find compact, long clusters or clusters with irregular shapes when the data points inside each cluster are generally dense and well separated from one another. The single linkage is sensitive to noise and outliers, hence it could not perform well when there is a lot of noise in the data or when there are outliers.
+
+On the other hand apply complete linkage to identify small, circular groups or clusters with similar sizes and shapes when the data points within each cluster are spread out and less well isolated from one another. Complete linkage tends to form clusters with a bias towards equal variances, although it is less vulnerable to noise and outliers than single linkage.
 
 
 # Agglomerative
