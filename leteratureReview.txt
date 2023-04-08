@@ -44,6 +44,10 @@ Complete linkage:
 For large datasets, complete linkage clustering can be computationally expensive since it determines the greatest possible distance between every pair of points in the clusters being merged. Applying complete linkage clustering to datasets with a lot of data points or dimensions might be difficult because of this.
 
 
+Data cleansing is a crucial step to take before applying any clustering to a dataset in order to get optimal results.  Here are some steps for data cleaning specifically for clustering.
+
+
+
 //Litereture review
 # Agglomerative
 
