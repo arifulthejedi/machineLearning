@@ -156,13 +156,12 @@ The OPTICS algorithm has several parameters that can affect the clustering resul
 
 To get the appropriate clustering results, it's necessary to carefully select these parameters. To choose the best parameters for the dataset and the current issue, experiment with various parameter values and visualize the outcomes.
 
+The following displays the accuracy results of the OPTICS algorithm's output for certain data sets.
+
+//showing the list of optics accuracy
 
 
-2.result & dicussion
 
-
-3.discussion about which type of data is suitable for this 
-algorithm.
 
 
 
