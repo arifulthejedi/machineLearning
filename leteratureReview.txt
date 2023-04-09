@@ -132,13 +132,18 @@ On the other hand apply complete linkage to identify small, circular groups or c
 # OPtics
 The OPTICS method can be implemented in a variety of ways depending on the programming language and the particular library or package being used. Here is an overview of the procedures necessary to install OPTICS:
 
+1.Compute the reachability distance: The OPTICS method calculates the reachability distance for each point in the dataset to each other point in the dataset. The minimal distance needed to get from one location to another along a path of decreasing reachability is known as the reachability distance.
 
+2.Create the reachability graph: The reachability graph is a directed graph with nodes that represent the data points and edges that reflect the separations between them that are within the reach of those points. A directed edge is added between two points if the reachability distance between them is smaller than a given radius.
 
+3.Make the reachability plot: The reachability plot captures the local density structure of the data and is a 1D representation of the reachability graph. The points are plotted against their index after being ordered according to their reachability distance.
 
+4.Determine cluster hierarchies: The optimal cluster number and cluster hierarchies can be determined using the reachability plot. To do this, the minimum cluster size must be determined as well as any sharp drops in reachability distances that correlate to cluster boundaries.
 
-1. methode
- -How it works brief description
- -Discuss about perameter
+5.Cluster extraction method: Based on the minimal cluster size and the cluster hierarchy, the clusters are retrieved from the reachability graph. A set of clusters and their related core points with a minimum reachability distance larger than the minimum cluster size are the end result.
+
+The OPTICS algorithm has several parameters that can affect the clustering results. Here are some essential features that should be properly set and considered during implementation.
+
 
 
 2.result & dicussion
