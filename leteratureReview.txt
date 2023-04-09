@@ -144,6 +144,18 @@ The OPTICS method can be implemented in a variety of ways depending on the progr
 
 The OPTICS algorithm has several parameters that can affect the clustering results. Here are some essential features that should be properly set and considered during implementation.
 
+1.`min_sample`: The parameter "min_samples" determines the bare minimum of samples needed to create a dense zone. More clusters will come from a smaller value, while fewer clusters will result from a bigger value. The dataset and intended cluster granularity must be considered while selecting the appropriate value.
+
+2.`xi`: The minimal distance between two cluster hierarchies is controlled by the 'xi' parameter. Clusters will increase with a lesser value while decreasing with a bigger value. This value is crucial for datasets with different densities.
+
+3.`metric`: The distance metric used to calculate the pairwise reachability distance is specified by the option "metric." It is crucial to select a distance measure that is appropriate for the dataset and the issue at hand because it might have a major impact on the clustering outcomes.
+
+4.'eps': This specifies the radius of the area surrounding each point. The reachability graph has edges connecting points within this radius, which are connected via the concept of neighbors. The density and shape of the dataset will determine the appropriate value for eps.
+
+5.`min_cluster_size`:  The `min_cluster_size` parameter determines the bare minimum of points needed to construct a cluster. Outliers are points that do not belong to any cluster. The intended cluster granularity and dataset size must be taken into consideration when determining the appropriate value for `min_cluster_size`.
+
+To get the appropriate clustering results, it's necessary to carefully select these parameters. To choose the best parameters for the dataset and the current issue, experiment with various parameter values and visualize the outcomes.
+
 
 
 2.result & dicussion
