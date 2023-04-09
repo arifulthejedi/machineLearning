@@ -163,6 +163,16 @@ The following displays the accuracy results of the OPTICS algorithm's output for
 
 
 
+OPTICS can handle datasets of any size and shape, and it is suited for grouped datasets with varied densities and shapes. On datasets with uniform densities, it might not work as well because there might not be sufficient variation in the reachability distances to correctly identify clusters.
+
+
+In general, it is a good idea for trying out various clustering algorithms to see which one is most effective for a specific dataset.
+
+
+
+
+
+
 
 
 
